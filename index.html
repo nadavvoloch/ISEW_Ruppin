@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D</title>
+    <link rel="stylesheet" href="CSS/index.css"></link>
+    <link rel="stylesheet" href="CSS/styleGeneral.css"></link>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="index.js"></script>
+    <link rel="icon" href="Images/Main/Logo.png">
+</head>
+<header>
+    <div>
+        <!-- Menu -->
+        <div class="navbar-container">
+            <div class="navbar">
+                <a onclick="displayHomePageButton()" href="#">Home</a>
+                <a onclick="displayAboutPageButton()" href="#">About</a>
+                <a onclick="displayRacesPageButton()" href="#">Races</a>
+                <a onclick="displayClassesPageButton()" href="#">Classes</a>
+                <a onclick="displayMonstersPageButton()" href="#">Monsters</a>
+                <a onclick="displayPlayPageButton()" href="#">Play</a>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <!-- MainPage -->
+    <div class="styplePage" id="mainPage">
+        <main>
+            <div class="intro">
+                <h1>Sign-Up For Free</h1>
+              <button class="registerbtn">Register Now</button>
+            </div>
+            <div class="features">
+              <h3>Why D&D Platform?</h3>
+              <ul>
+                <li><img src="Images/Main/Dice.png" alt="Dice">Play D&D anytime, anywhere, with anyone</li>
+                <li><img src="Images/Main/Map.png" alt="Map">Create and explore immersive worlds and adventures</li>
+                <li><img src="Images/Main/Book.png" alt="Book">Access a rich library of official and fan-made resources</li>
+                <li><img src="Images/Main/Chat.png" alt="Chat">Connect and communicate with a friendly and diverse community</li>
+              </ul>
+            </div>
+          </main>
+    </div>
+    <!-- AboutPage -->
+    <div class="styplePage displayNone" id="aboutPage">
+        <img src="Images/About/Image01.jpg" alt="Error iamge">
+        <p>
+            Dungeons & Dragons (D&D) is a tabletop role-playing game (RPG) that was first published in 1974 by Gary Gygax and Dave Arneson. The game is set in a fantasy world filled with magic, monsters, and adventure, where players take on the roles of characters who embark on quests, explore dungeons, and interact with a vast and immersive universe.
+        </p>
+        <p>
+            The overarching background story of D&D varies depending on the campaign setting being used. D&D provides a framework for storytelling and gameplay, and various campaign settings offer different worlds, histories, and mythologies. Here's a brief overview:
+        </p>
+        <h2>Core Concepts:</h2>
+        <img src="Images/About/Image02.jpg" alt="Error iamge">
+        <p>
+            1) The Multiverse: D&D is set in a vast multiverse consisting of multiple planes of existence. These planes range from the material plane (where most adventures occur) to elemental planes, outer planes inhabited by deities and other celestial beings, and more.
+        </p>
+        <p>
+            2) Magic and Mythology: Magic is a fundamental force in the D&D universe. It permeates the world, and spellcasting is a common aspect of many characters. The game draws inspiration from various mythologies, folklore, and classic fantasy literature.
+        </p>
+        <h2>Campaign Settings:</h2>
+        <img src="Images/About/Image03.png" alt="Error iamge">
+        <p>
+            D&D offers various campaign settings, each with its own unique background story. Some notable settings include:
+        </p>
+        <p>
+            1) Forgotten Realms: One of the most popular settings, Forgotten Realms is a high fantasy world with diverse cultures, powerful magic, and iconic locations. It features deities, epic conflicts, and a rich history.
+        </p>
+        <p>
+            2) Eberron: Eberron is a world with a blend of magic and technology, featuring airships, magical trains, and a noir-inspired atmosphere. It emphasizes intrigue, exploration, and a post-war landscape.
+        </p>
+        <p>
+            3) Dragonlance: Dragonlance is known for its epic fantasy narrative, featuring dragons, gods, and a sweeping tale of heroism. It follows the adventures of iconic characters like Raistlin Majere and Tanis Half-Elven.
+        </p>
+        <p>
+            4) Greyhawk: The original campaign setting created by Gary Gygax, Greyhawk is a classic fantasy world with a vast history and a variety of cultures and nations.
+        </p>
+        <h2>Themes:</h2>
+        <img src="Images/About/Image04.png" alt="Error iamge">
+        <p>
+            D&D explores various themes, including heroism, morality, exploration, and the eternal struggle between good and evil. The game encourages creativity and collaborative storytelling, allowing players and Dungeon Masters to shape the narrative through their decisions and actions.
+        </p>
+        <h2>Player Agency:</h2>
+        <img src="Images/About/Image05.jpg" alt="Error iamge">
+        <p>
+            One of the key features of D&D is player agency. Players have the freedom to make choices that impact the story and the world around them. The Dungeon Master (DM) serves as the storyteller and referee, guiding the narrative based on the players' decisions.
+        </p>
+        <p>
+            In essence, the background story of D&D is a canvas for endless adventures and storytelling possibilities. The game's flexibility and adaptability allow players to immerse themselves in diverse and captivating worlds, making each campaign a unique and memorable experience.
+        </p>
+    </div>
+    <!-- RacesPage -->
+    <div class="styplePage displayNone" id="racesPage">
+        <h2>Races</h2>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Humans:</span> As one of the most adaptable and widespread races, humans are known for their versatility and ambition. They can be found in various cultures, and their diversity makes them well-suited for different character classes.
+            </p>
+            <img src="Images/Races/Humans.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Elves:</span> Elves are long-lived and graceful beings with a deep connection to nature. They are often portrayed as skilled archers and mages. Subraces, such as High Elves, Wood Elves, and Dark Elves (Drow), provide additional variations.
+            </p>
+            <img src="Images/Races/Elves.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Dwarves:</span> Stout and robust, dwarves are known for their craftsmanship, mining skills, and resilience. They are often depicted as skilled warriors and skilled metalworkers.
+            </p>
+            <img src="Images/Races/Dwarves.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Halflings:</span> Small, agile, and often living in rural areas, halflings are known for their love of food and simple pleasures. They make excellent thieves and rogues due to their nimbleness.
+            </p>
+            <img src="Images/Races/Halflings.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Gnomes:</span> Gnomes are inventive and curious, with a love for tinkering and magic. Forest gnomes and rock gnomes are common subtypes, each with its own unique traits.
+            </p>
+            <img src="Images/Races/Gnomes.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Half-Elves:</span> Born of both human and elven parentage, half-elves often struggle with their dual heritage. They possess a mix of traits from both races, making them adaptable and charismatic.
+            </p>
+            <img src="Images/Races/Half-Elves.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Half-Orcs:</span> The offspring of humans and orcs, half-orcs are known for their strength and endurance. They often face prejudice due to their orcish ancestry.
+            </p>
+            <img src="Images/Races/Half-Orcs.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Tieflings:</span> Tieflings have infernal heritage, often with demonic bloodlines. They have unique physical characteristics such as horns, tails, and unusual eye colors. Tieflings often struggle with the prejudices associated with their demonic ancestry.
+            </p>
+            <img src="Images/Races/Tieflings.png" alt="Error iamge">
+        </div>
+
+        <div class="paragrapAndImage">
+            <p>
+                <span class="boldUnderline">Dragonborn:</span> Humanoid creatures with draconic ancestry, dragonborn possess dragon-like features and abilities. They are often associated with specific dragon types, and their breath weapon varies accordingly.
+            </p>
+            <img src="Images/Races/Dragonborn.png" alt="Error iamge">
+        </div>
+    </div>
+    <!-- ClassesPage -->
+    <div class="styplePage displayNone" id="classesPage">
+        <h2>Classes</h2>
+        <p>
+            <span class="boldUnderline">Barbarian:</span> Masters of primal rage and physical prowess, barbarians tap into their inner fury to become formidable warriors on the battlefield. They often come from tribal backgrounds and embrace a wild, untamed fighting style.
+        </p>
+        <img src="Images/Classes/Barbarian.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Bard:</span> Bards are versatile performers and spellcasters who use their artistic talents to weave magic into their performances. They can inspire allies, cast spells, and even steal the abilities of others.
+        </p>
+        <img src="Images/Classes/Bard.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Cleric:</span> Devoted to a deity or a set of divine principles, clerics are healers and divine spellcasters. They can also serve as warriors or support characters, depending on their chosen domain.
+        </p>
+        <img src="Images/Classes/Cleric.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Druid:</span> Guardians of the natural world, druids have a deep connection with the environment and can shape-shift into animals. They use nature-based magic and have unique abilities related to the wilderness.
+        </p>
+        <img src="Images/Classes/Druid.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Fighter:</span> Fighters are skilled warriors who excel in combat. They can specialize in various combat styles, such as archery, two-weapon fighting, or defense. Fighters are versatile and adaptable to different combat situations.
+        </p>
+        <img src="Images/Classes/Fighter.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Monk:</span> Masters of martial arts and discipline, monks harness their inner ki to achieve extraordinary feats. They are agile, fast, and can even catch arrows in mid-air.
+        </p>
+        <img src="Images/Classes/Monk.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Paladin:</span> Holy warriors and champions of justice, paladins are heavily armored fighters with a strong moral compass. They possess divine magic and abilities to smite enemies.
+        </p>
+        <img src="Images/Classes/Paladin.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Ranger:</span> Rangers are skilled hunters and trackers with a strong connection to the natural world. They are proficient with ranged weapons, have survival skills, and often have animal companions.
+        </p>
+        <img src="Images/Classes/Ranger.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Rogue:</span> Masters of stealth and cunning, rogues are skilled thieves, assassins, and infiltrators. They excel at surprise attacks, evasion, and using their wits to overcome challenges.
+        </p>
+        <img src="Images/Classes/Rogue.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Sorcerer:</span> Sorcerers derive their magical power from innate sources, often a result of bloodline or a magical event. They cast spells with charisma and can unleash powerful, raw magic.
+        </p>
+        <img src="Images/Classes/Sorcerer.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Warlock:</span> Warlocks form pacts with otherworldly entities, gaining magical powers in exchange for their service. They have a unique spellcasting system and can summon eldritch invocations.
+        </p>
+        <img src="Images/Classes/Warlock.png" alt="Error iamge">
+        <p>
+            <span class="boldUnderline">Wizard:</span> Wizards are scholarly spellcasters who learn magic through study and practice. They have access to a wide range of spells and can specialize in different schools of magic.
+        </p>
+        <img src="Images/Classes/Wizard.png" alt="Error iamge">
+    </div>
+    <!-- MonastersPage -->
+    <div class="styplePage displayNone" id="monstersPage">
+    </div>
+    <!-- PlayPage -->
+    <div class="styplePage displayNone" id="playPage">
+        <img class="draggable" src="Images/Monsters/Itamar_Lahman_Zvi.jfif" alt="Error Image" draggable="true">
+        <img class="draggable" src="Images/Monsters/Uzi_Paz.jpg" alt="Error Image" draggable="true">
+    </div>
+</body>
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: info@dndadventurehub.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+
+        <div class="footer-content">
+            <h3>Quick Links</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQs</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 D&D Adventure Hub. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Script -->
+</html>
